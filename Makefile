@@ -1,4 +1,4 @@
-OPENSCAD := openscad-nightly
+OPENSCAD := openscad
 MONTAGE := montage
 targets :=  $(shell find *.scad ! -name "*test*")
 stls := $(targets:.scad=.stl)
